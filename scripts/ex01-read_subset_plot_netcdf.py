@@ -25,3 +25,6 @@ nc_clim.plot.contourf(ax = ax,levels = np.arange(-10,36,2),extend = 'max', trans
 
 ax.coastlines()
 plt.show()
+
+# Subset the nc file with dimension (lat,lon,time)
+
